@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "real-fake-job-desc"
+version = "0.1.0"
+description = "Data science project with real/fake job description dataset"
+authors = ["Datsudo <76833632+datsudo@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.0.0"
+matplotlib = "^3.9.1"
+notebook = "^7.2.1"
+seaborn = "^0.13.2"
+nbconvert = "^7.16.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
